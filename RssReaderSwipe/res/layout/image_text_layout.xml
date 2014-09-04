@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:orientation="horizontal" -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:focusable="false"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+
+	<ImageView android:id="@+id/feed_image"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:paddingTop="5dip"
+		android:paddingRight="3dip"
+		android:focusable="false" />
+	 
+	<TextView android:id="@+id/title" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_toRightOf="@id/feed_image"
+		android:textColor="#ffcc00"
+		android:paddingTop="5dip"
+		android:paddingBottom="28dip" 
+		android:paddingLeft="8dip"
+		android:paddingRight="8dip"
+		android:focusable="false" />
+	<!--
+	<TextView android:id="@+id/pubDate" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/feed_image" 
+		android:layout_below="@+id/title"
+		android:textColor="#ffcc00"
+		android:paddingLeft="8dip"
+		android:paddingRight="8dip" />
+
+	<TextView android:id="@+id/description" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/link"
+		android:textColor="#ffcc00"
+		android:paddingLeft="8dip"
+		android:paddingRight="8dip" />
+	 -->
+	 
+	 <TextView android:id="@+id/link" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/title"
+		android:focusable="false"
+		android:clickable="true"
+		android:autoLink="web"
+		android:textColor="#ffcc00"
+		android:paddingLeft="8dip"
+		android:paddingRight="8dip" />
+	 <!-- android:layout_toRightOf="@id/feed_image" -->
+</RelativeLayout>

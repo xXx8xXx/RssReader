@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:focusable="false"
+    android:orientation="vertical" > <!-- #512365 -->
+
+    <!-- <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wlcome to the Topky.sk Page"
+        android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+    
+    <!-- List view -->
+	<ListView 
+	    android:id="@+id/topky_list" 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:dividerHeight="0px"
+		android:focusable="false"
+		android:divider="#00000000" />	
+
+</LinearLayout>
