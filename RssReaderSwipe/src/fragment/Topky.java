@@ -28,10 +28,6 @@ import org.json.JSONObject;
 import reader.RssReader;
 import rssreader.WebViewWindow;
 
-import com.tmm.android.rssreader.R;
-import com.tmm.android.rssreader.R.id;
-import com.tmm.android.rssreader.R.layout;
-
 public class Topky extends android.support.v4.app.Fragment {
 
 	private RssListAdapter adapter;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tmm.android.rssreader"
+    package="com.rss"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -24,7 +24,7 @@
         </activity>
         <activity
             android:name="rssreader.WebViewWindow"
-            android:label="WebViewWindow"
+            android:label="RSS Reader Webview"
             android:value="rssreader.WebViewWindow" > <!-- android:value="com.tmm.android.rssreader.WebViewWindow" -->
         </activity>
     </application>

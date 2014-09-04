@@ -14,10 +14,6 @@ import model.FeedItem;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.tmm.android.rssreader.R;
-import com.tmm.android.rssreader.R.id;
-import com.tmm.android.rssreader.R.layout;
-
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -33,10 +29,6 @@ import android.widget.TextView;
 
 
 public class RssListAdapter extends ArrayAdapter<FeedItem> {
-	
-	static {
-		
-	}
 
 	public RssListAdapter(Activity activity, List<FeedItem> imageAndTexts) {
 		super(activity, 0, imageAndTexts);

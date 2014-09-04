@@ -1,28 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- android:orientation="horizontal" -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
 	android:focusable="false"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content">
-
 
 	<ImageView android:id="@+id/feed_image"
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content"
 		android:paddingTop="5dip"
 		android:paddingRight="3dip"
-		android:focusable="false" />
+		android:focusable="false"
+		android:contentDescription="@string/contDesc" />
 	 
 	<TextView android:id="@+id/title" 
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content" 
 		android:layout_toRightOf="@id/feed_image"
-		android:textColor="#ffcc00"
+		android:textColor="#ffffff"
 		android:paddingTop="5dip"
 		android:paddingBottom="28dip" 
 		android:paddingLeft="8dip"
 		android:paddingRight="8dip"
-		android:focusable="false" />
+		android:focusable="false" /> <!-- #ffcc00 -->
 	<!--
 	<TextView android:id="@+id/pubDate" 
 		android:layout_width="wrap_content"
@@ -49,8 +48,7 @@
 		android:focusable="false"
 		android:clickable="true"
 		android:autoLink="web"
-		android:textColor="#ffcc00"
+		android:textColor="#ffffff"
 		android:paddingLeft="8dip"
-		android:paddingRight="8dip" />
-	 <!-- android:layout_toRightOf="@id/feed_image" -->
+		android:paddingRight="8dip" /> 
 </RelativeLayout>
